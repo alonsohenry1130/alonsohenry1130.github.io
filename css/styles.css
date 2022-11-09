@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #523222;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo
+ {
+    background: url(../img/logo\ cafeterito.jpg) no-repeat center;
+    margin-left: 30px;
+}
+
+.logo {
+    background: url(../img/logo\ cafeterito.jpg) no-repeat center;
+    
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #99772cc5;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh !important;
+    background: url(../img/nathan-dumlao-6VhPY27jdps-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.title{
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p{
+    
+    
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 0 100px;
+}
+
+
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding:30px ;
+    background: #ebaa1eb7;
+    color: #fff;
+    background: url(../img/comida\ y\ cafe.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+
+
+}
+
+
+
+.box-container{
+    background: url(../img/cafes-mundo-recetas-m.avif);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+ .box {
+    height: 11rem;
+    width: 17rem;
+    background: #443119;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 5);
+    margin: 2rem;
+
+}
+
+.box p{
+    color: #fff;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about{
+    background: url(../img/vista-cercana-granos-cafe-tostados-frescos-oscuros-sobre-fondo-granos-cafe_141793-27283.webp);
+    color: #fff;
+}
+
+.price{
+   color: #fff;
+   background: url(../img/cafe\ y\ dinero\ 10.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact{
+   
+    color: #fff;
+    padding-top: 20px;
+    background: #3a2b11;
+    padding-bottom: 0;
+    background: url(../img/contact-us-2993000_1920-1140x530.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+ 
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau{
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+}
+
